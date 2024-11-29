@@ -17,7 +17,3 @@ if st.button("Enviar"):
     st.write(f"Novedad: {novedad}")
     st.write(f"Detalles: {detalles}")
 
-
-    data.to_csv('novedades.csv', index=False)
-
-    st.write("Datos guardados en el archivo CSV")
